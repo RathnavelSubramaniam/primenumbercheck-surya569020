@@ -1,9 +1,9 @@
 /**
-* checks if a given number is prime.
-*
-*@param {number}n - the number to check.
-*@returns {boolean} True if the number is Prime,false otherwise.
-*/
+ * checks if a given number is prime.
+ *
+ *@param {number}n - The number to check.
+ *@returns {boolean} True if the number is Prime,false otherwise.
+ */
 const n=paraseInt(process.argv[2]);
 
 function is Prime(num) {
@@ -15,11 +15,12 @@ function is Prime(num) {
     }
     return true;
 }
-if (isPrime(n){
+if (isPrime(n)) {
     console.log("Prime Number");
 }else{
     console.log("Not Prime Number");
 }
+
 module.exports = isPrime;
 
     
