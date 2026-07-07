@@ -1,5 +1,5 @@
 /**
- * Checks if a given number is prime.
+ * Checks if a given number is Prime.
  *
  *@param {number}n - The number to check.
  *@returns {boolean} True if the number is Prime,false otherwise.
