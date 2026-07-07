@@ -7,8 +7,8 @@
 const n=paraseInt(process.args[2]);
 
 function isPrime(num) {
-    if (num <=i=2)return false;
-    for(let i=2;i<num;i<num;i++){
+    if (num <=1)return false;
+    for(let i=2;i<num;i++){
         if(num % i===0){
             return false;
         }
@@ -16,9 +16,9 @@ function isPrime(num) {
     return true;
 }
 if (isPrime(n){
-    console.log("prime Number");
+    console.log("Prime Number");
 }else{
-    console.log("Not prime Number");
+    console.log("Not Prime Number");
 }
 module.exports = isPrime;
 
