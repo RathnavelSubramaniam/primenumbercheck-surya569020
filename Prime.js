@@ -1,7 +1,7 @@
 /**
  * Checks if a given number is Prime.
  *
- *@param {number}n - The number to check.
+ *@param {number} n - The number to check.
  *@returns {boolean} True if the number is Prime,false otherwise.
  */
 const n=paraseInt(process.argv[2]);
