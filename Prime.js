@@ -1,13 +1,13 @@
 /**
-* checksif a given number is prime.
+* checks if a given number is prime.
 *
-*@param (number)n - the number to check.
-*@returns {boolean} True if the number is prime,false otherwise.
+*@param {number}n - the number to check.
+*@returns {boolean} True if the number is Prime,false otherwise.
 */
-const n=paraseInt(process.args[2]);
+const n=paraseInt(process.argv[2]);
 
-function isPrime(num) {
-    if (num <=1)return false;
+function is Prime(num) {
+    if (num <= 1) return false;
     for(let i=2;i<num;i++){
         if(num % i===0){
             return false;
